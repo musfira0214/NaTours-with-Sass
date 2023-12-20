@@ -1,0 +1,88 @@
+icon-fonts => linea.io
+
+background-video site => coverr.co
+
+BEM notaion =>  &__selector, &__other--selector
+
+subling selector => input:plaseholder-shown + other(selector);
+
+ease function => https://easings.net/
+
+*********Script**********
+
+"watch:sass": "node-sass sass/main.scss css/style.css -w",
+"compile:sass": "node-sass sass/main.scss css/style.comp.css", 
+"concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
+
+"prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css",
+
+
+=> npm i concat --save-dev
+=> npm i autoprefixer --save-dev
+=> npm i postcss-cli --save-deva
+
+::selector use 
+for background color and font color 
+using in back
+
+
+-----------------------------------------------
+
+
+1- Question
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+            only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+            only screen and (min-width: 125em) {
+
+    }
+
+    Answer:
+
+
+    -------------------------------------
+
+
+    2-Question
+    How use mixins??
+    mixins.scss == ??
+
+     @include respond(phone) {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+
+        Answer:
+
+
+    -------------------------------------
+    3-Question
+
+    animation.scs ==  ???
+
+    Answer:
+
+    --------------------------------------
+
+    backface-visibility: hidden;
+
+    -----------------------------
+
+
+
+    transform: translate(-50%, -50%);
+
+    only for x-axis:
+    transform: translateX(100px);
+
+    only for y-axis:
+    transform: translateY(100px);
+
+
+    on y-axis top == -ve
+    on y-axis-bottom  == +ve
+
+    on x-axis-right== +ve
+    on x-axis-left == -ve
+
+
+    

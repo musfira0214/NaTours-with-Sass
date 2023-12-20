@@ -1,0 +1,14 @@
+{
+  "name": "musfi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "musfira",
+  "license": "MIT"
+}
